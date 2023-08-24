@@ -24,7 +24,7 @@ RUN echo 'whoami ' >>/Aniange.sh
 
 RUN echo 'cd ' >>/Aniange.sh
 
-RUN echo "su -l -c 'vncserver :2000 -geometry 1360x768' "  >>/Aniange.sh
+RUN echo "su -l -c 'vncserver :2000 -geometry 1920x1080' "  >>/Aniange.sh
 
 RUN echo 'cd /noVNC-1.2.0' >>/Aniange.sh
 
