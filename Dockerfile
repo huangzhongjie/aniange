@@ -28,10 +28,10 @@ RUN echo "su -l -c 'vncserver :2000 -geometry 1920x1080' "  >>/Aniange.sh
 
 RUN echo 'cd /noVNC-1.2.0' >>/Aniange.sh
 
-RUN echo './utils/launch.sh  --vnc localhost:7900 --listen 8890 ' >>/Aniange.sh
+RUN echo './utils/launch.sh  --vnc localhost:7900 --listen 8900 ' >>/Aniange.sh
 
 RUN chmod 755 /Aniange.sh
 
-EXPOSE 8890
+EXPOSE 8900
 
 CMD  /Aniange.sh
